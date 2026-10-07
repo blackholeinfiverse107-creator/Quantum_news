@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: quantum-news-explorer
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: USE_MOCK
+        value: "false"
+      - key: CACHE_MINUTES
+        value: "30"
+      - key: MAX_AGE_DAYS
+        value: "30"

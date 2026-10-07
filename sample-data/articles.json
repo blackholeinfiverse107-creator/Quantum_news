@@ -1,0 +1,110 @@
+[
+  {
+    "id": "mock-india-001",
+    "title": "India's National Quantum Mission allocates ₹6,000 crore for quantum computing research",
+    "source": "DST India",
+    "url": "https://dst.gov.in/national-quantum-mission-nqm",
+    "publishedAt": "2026-10-05T09:30:00Z",
+    "snippet": "The Indian government has approved a massive funding boost for the National Quantum Mission, targeting breakthroughs in quantum computing, quantum communication, and quantum sensing by 2031.",
+    "category": "india"
+  },
+  {
+    "id": "mock-india-002",
+    "title": "IIT Madras demonstrates 20-qubit quantum processor prototype",
+    "source": "IIT Madras",
+    "url": "https://www.iitm.ac.in/",
+    "publishedAt": "2026-10-03T14:15:00Z",
+    "snippet": "Researchers at IIT Madras have unveiled a 20-qubit superconducting quantum processor, marking a significant milestone for India's quantum computing ambitions.",
+    "category": "india"
+  },
+  {
+    "id": "mock-india-003",
+    "title": "QNu Labs Bengaluru deploys quantum key distribution network for Indian banking sector",
+    "source": "QNu Labs",
+    "url": "https://qnulabs.com/",
+    "publishedAt": "2026-10-01T06:45:00Z",
+    "snippet": "Bengaluru-based QNu Labs has rolled out a quantum cryptography solution for secure banking communications, making India one of the first countries to deploy QKD in the financial sector.",
+    "category": "india"
+  },
+  {
+    "id": "mock-india-004",
+    "title": "DRDO and ISRO collaborate on satellite-based quantum communication",
+    "source": "ISRO",
+    "url": "https://www.isro.gov.in/",
+    "publishedAt": "2026-09-28T11:00:00Z",
+    "snippet": "DRDO and ISRO have announced a joint project to develop satellite-based quantum communication links, aiming to build an unhackable communication network for defence applications.",
+    "category": "india"
+  },
+  {
+    "id": "mock-india-005",
+    "title": "IISc Bangalore team achieves quantum error correction breakthrough",
+    "source": "IISc Bangalore",
+    "url": "https://iisc.ac.in/",
+    "publishedAt": "2026-09-25T08:20:00Z",
+    "snippet": "Scientists at the Indian Institute of Science have demonstrated a novel quantum error correction code that could make quantum computers more reliable and practical for real-world use.",
+    "category": "india"
+  },
+  {
+    "id": "mock-intl-001",
+    "title": "Google achieves 1,000-qubit milestone with new Willow quantum chip",
+    "source": "Google Blog",
+    "url": "https://blog.google/technology/research/google-willow-quantum-chip/",
+    "publishedAt": "2026-10-06T16:00:00Z",
+    "snippet": "Google has announced its Willow quantum processor has surpassed the 1,000-qubit barrier, a major step toward practical quantum computing for drug discovery and materials science.",
+    "category": "international"
+  },
+  {
+    "id": "mock-intl-002",
+    "title": "IBM unveils Quantum System Three with modular architecture",
+    "source": "IBM Quantum",
+    "url": "https://www.ibm.com/quantum",
+    "publishedAt": "2026-10-04T12:30:00Z",
+    "snippet": "IBM has launched its next-generation Quantum System Three, featuring a modular design that allows multiple quantum processors to be linked for larger computations.",
+    "category": "international"
+  },
+  {
+    "id": "mock-intl-003",
+    "title": "EU invests €2 billion in quantum technology for cybersecurity and sensing",
+    "source": "EU Quantum Flagship",
+    "url": "https://qt.eu/",
+    "publishedAt": "2026-10-02T10:00:00Z",
+    "snippet": "The European Union has committed €2 billion to quantum technology research, focusing on quantum cryptography for cybersecurity and quantum sensing for medical diagnostics.",
+    "category": "international"
+  },
+  {
+    "id": "mock-intl-004",
+    "title": "Chinese researchers demonstrate quantum internet link spanning 4,600 km",
+    "source": "Nature Quantum",
+    "url": "https://www.nature.com/subjects/quantum-information",
+    "publishedAt": "2026-09-30T07:15:00Z",
+    "snippet": "A team of Chinese scientists has established a quantum communication link over 4,600 kilometres using satellite relays, setting a new distance record for quantum key distribution.",
+    "category": "international"
+  },
+  {
+    "id": "mock-intl-005",
+    "title": "Microsoft announces topological qubit breakthrough for fault-tolerant quantum computing",
+    "source": "Microsoft Quantum",
+    "url": "https://cloudblogs.microsoft.com/quantum/",
+    "publishedAt": "2026-09-27T14:45:00Z",
+    "snippet": "Microsoft has demonstrated a working topological qubit, which the company says could dramatically reduce error rates and pave the way for fault-tolerant quantum computing.",
+    "category": "international"
+  },
+  {
+    "id": "mock-intl-006",
+    "title": "Quantum sensing technology detects underground structures with unprecedented precision",
+    "source": "Scientific American",
+    "url": "https://www.scientificamerican.com/",
+    "publishedAt": "2026-09-22T09:30:00Z",
+    "snippet": "A UK startup has used quantum sensing based on cold-atom interferometry to map underground infrastructure, demonstrating quantum technology's practical benefits beyond computing.",
+    "category": "international"
+  },
+  {
+    "id": "mock-intl-007",
+    "title": "Japan and Australia sign quantum technology cooperation agreement",
+    "source": "Nikkei Asia",
+    "url": "https://asia.nikkei.com/",
+    "publishedAt": "2026-09-20T05:00:00Z",
+    "snippet": "Japan and Australia have signed a bilateral agreement to jointly develop quantum computing and quantum communication technologies as part of their broader tech alliance.",
+    "category": "international"
+  }
+]

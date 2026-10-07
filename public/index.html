@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quantum News Explorer — Latest Quantum Technology News</title>
+  <meta name="description" content="Explore the latest quantum technology news from India and around the world — quantum computing, communication, cryptography, sensing, and research." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ── Landing hero ─────────────────────────────────── -->
+  <main id="landing" class="landing">
+    <div class="landing__glow"></div>
+    <div class="landing__content">
+      <div class="landing__badge">⚛ Quantum Tech</div>
+      <h1 class="landing__title">Quantum News Explorer</h1>
+      <p class="landing__subtitle">
+        Discover the latest breakthroughs in quantum computing, communication, 
+        cryptography, and sensing — from India and around the world.
+      </p>
+      <button id="explore-btn" class="btn btn--primary" type="button">
+        <span class="btn__icon">🔬</span>
+        Explore Quantum News
+      </button>
+    </div>
+    <div class="landing__particles" aria-hidden="true"></div>
+  </main>
+
+  <!-- ── News section (hidden until loaded) ────────── -->
+  <section id="news-section" class="news-section hidden" aria-label="Quantum news articles">
+    <!-- Top bar -->
+    <header class="news-header">
+      <button id="back-btn" class="btn btn--ghost" type="button" aria-label="Back to home">
+        ← Back
+      </button>
+      <h2 class="news-header__title">Quantum News</h2>
+      <div class="news-header__actions">
+        <span id="update-time" class="update-time" title="Feed last updated time"></span>
+        <button id="refresh-btn" class="btn btn--ghost btn--icon" type="button" title="Refresh feed for latest news" aria-label="Refresh news feed">
+          🔄 Refresh
+        </button>
+        <div id="provider-badge" class="provider-badge"></div>
+      </div>
+    </header>
+
+    <!-- Stale data notice -->
+    <div id="stale-notice" class="stale-notice hidden" role="alert">
+      ⚠ Showing cached data. Live results are temporarily unavailable.
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs" role="tablist" aria-label="News categories">
+      <button
+        id="tab-india"
+        class="tab tab--active"
+        role="tab"
+        aria-selected="true"
+        aria-controls="panel-india"
+        tabindex="0"
+      >
+        🇮🇳 India <span id="count-india" class="tab__count">0</span>
+      </button>
+      <button
+        id="tab-international"
+        class="tab"
+        role="tab"
+        aria-selected="false"
+        aria-controls="panel-international"
+        tabindex="-1"
+      >
+        🌍 International <span id="count-international" class="tab__count">0</span>
+      </button>
+    </div>
+
+    <!-- Panels -->
+    <div id="panel-india" class="panel" role="tabpanel" aria-labelledby="tab-india">
+      <div id="articles-india" class="articles-grid"></div>
+    </div>
+    <div id="panel-international" class="panel hidden" role="tabpanel" aria-labelledby="tab-international">
+      <div id="articles-international" class="articles-grid"></div>
+    </div>
+  </section>
+
+  <!-- ── Loading overlay ───────────────────────────── -->
+  <div id="loading" class="loading-overlay hidden" aria-live="polite">
+    <div class="spinner"></div>
+    <p class="loading-text">Fetching quantum news…</p>
+  </div>
+
+  <!-- ── Error state ───────────────────────────────── -->
+  <div id="error-state" class="error-state hidden" role="alert">
+    <div class="error-state__icon">⚠</div>
+    <p id="error-message" class="error-state__msg">Something went wrong.</p>
+    <button id="retry-btn" class="btn btn--primary" type="button">Try Again</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
