@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#0a0b14" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <title>Quantum News Explorer — Latest Quantum Technology News</title>
   <meta name="description" content="Explore the latest quantum technology news from India and around the world — quantum computing, communication, cryptography, sensing, and research." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -33,16 +36,18 @@
   <section id="news-section" class="news-section hidden" aria-label="Quantum news articles">
     <!-- Top bar -->
     <header class="news-header">
-      <button id="back-btn" class="btn btn--ghost" type="button" aria-label="Back to home">
-        ← Back
-      </button>
-      <h2 class="news-header__title">Quantum News</h2>
+      <div class="news-header__top">
+        <button id="back-btn" class="btn btn--ghost" type="button" aria-label="Back to home">
+          ← Back
+        </button>
+        <h2 class="news-header__title">Quantum News</h2>
+        <div id="provider-badge" class="provider-badge"></div>
+      </div>
       <div class="news-header__actions">
         <span id="update-time" class="update-time" title="Feed last updated time"></span>
         <button id="refresh-btn" class="btn btn--ghost btn--icon" type="button" title="Refresh feed for latest news" aria-label="Refresh news feed">
           🔄 Refresh
         </button>
-        <div id="provider-badge" class="provider-badge"></div>
       </div>
     </header>
 
